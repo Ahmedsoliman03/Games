@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="icon" href="./images/5930147.png"/>
+    <title>Games</title>
+</head>
+<body>
+   <section class="games">
+<header class="position-relative">
+    <img src="./images/wraper.png" class="w-100" alt="games-photo"/>
+    <img src="./images/gaming-game-on.gif" class=" position-absolute bottom-0 start-50 translate-middle-x end-50 mb-5" width="100px" alt="games-photo"/>
+</header>
+    <nav class="navbar navbar-expand-lg nav-bg position-sticky top-0 z-3 mx-auto">
+        <div class="container">
+          <h5 class="m-0">
+            <img src="./images/logo-sm.png" style="max-width: 40px;" class="me-1" alt="logo"/>GAME REVIEWS
+          </h5>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">mmorpg</a>
+              <a class="nav-link" href="#">shooter</a>
+              <a class="nav-link" href="#">sailing</a>
+              <a class="nav-link" href="#">permadeath</a>
+              <a class="nav-link" href="#">superhero</a>
+              <a class="nav-link" href="#">pixel</a>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+<div class="container my-5 home">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4" id="gameData">
+
+
+        <div class="loading">
+            <span class="loader"></span>
+           </div>
+
+    </div>
+</div>
+   </section>
+   <section class="details pt-4 d-none">
+<div class="container">
+    <header class="d-flex justify-content-between">
+        <h1 class="h3">Details Game</h1>
+        <button type="button" class="btn-close" id="btnClose" aria-label="Close"></button>
+    </header>
+    <div class="row mt-5" id="detailsData">
+        <div class="loading">
+            <span class="loader"></span>
+           </div>
+</div>
+   </section>
+   
+   <!--  -->
+   <script src="./js/bootstrap.bundle.min.js"></script> 
+   <script type="module" src="./js/index.js"></script> 
+</body>
+</html>
